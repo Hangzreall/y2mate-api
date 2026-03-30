@@ -1,0 +1,29 @@
+{
+  "name": "y2mate-auto-request",
+  "version": "1.0.0",
+  "description": "Y2Mate Auto Request Script with Anti-Block features for Vercel",
+  "main": "auto-request.js",
+  "scripts": {
+    "start": "node auto-request.js",
+    "parse": "node auto-request.js",
+    "request": "node auto-request.js",
+    "vercel-build": "echo 'No build required'"
+  },
+  "keywords": [
+    "y2mate",
+    "auto-request",
+    "anti-block",
+    "vercel"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "https-proxy-agent": "^7.0.4"
+  },
+  "optionalDependencies": {
+    "https-proxy-agent": "^7.0.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
